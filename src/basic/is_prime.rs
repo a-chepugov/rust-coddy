@@ -1,3 +1,4 @@
+/// функция, которая принимает целое число num и возвращает true, если num является простым числом, в противном случае — false.
 pub fn isPrime(num: i32) -> bool {
     let pivot = (num as f64).sqrt() as i32;
     for i in 2..=pivot {
@@ -7,7 +8,6 @@ pub fn isPrime(num: i32) -> bool {
     }
     true
 }
-
 
 #[test]
 fn test() {
