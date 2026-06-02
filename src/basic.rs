@@ -4,3 +4,4 @@ mod remove_the_ith;
 mod multiply_the_word;
 mod fibonacci;
 mod is_prime;
+mod fact;
