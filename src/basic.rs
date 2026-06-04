@@ -6,3 +6,4 @@ mod fibonacci;
 mod is_prime;
 mod fact;
 mod is_palindrome;
+mod sorted_word;
